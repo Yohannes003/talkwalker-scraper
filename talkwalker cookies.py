@@ -13,8 +13,8 @@ firefox_service = FirefoxService(GeckoDriverManager().install())
 driver = webdriver.Firefox(service=firefox_service, options=firefox_options)
 driver.get("https://app.talkwalker.com/app/login")
 
-username = "mimitib231@polatrix.com"
-password = "1ayanakoji"
+username = "email"
+password = "pass"
 
 time.sleep(30)
 # Locate the username input field and input the username
