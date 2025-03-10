@@ -40,7 +40,7 @@ with open("talkwalk_cookies.pkl", "wb") as f:
     pickle.dump(driver.get_cookies(), f)
 driver.quit()
 
-#mimitib231@polatrix.com
+
 #//*[@id="tw-container"]/div/div/div/div/main/div/div/form/div[1]/div[1]/div/input
 #//*[@id="tw-container"]/div/div/div/div/main/div/div/form/div[1]/div[2]/div/input
 #//*[@id="login-button"]
